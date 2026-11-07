@@ -1126,6 +1126,27 @@ body {
 .lista-manual li:last-child {
     border-bottom: none;
 }
+/* --- ARCO ÚNICO CENTRADO --- */
+.layout-arcos {
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tarjeta-arco,
+.arco-ceremonia {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 0 auto;
+}
+
+.tarjeta-arco {
+    width: 90% !important;
+    max-width: 300px;
+}
 </style>
 </head>
 <body>
@@ -1311,22 +1332,14 @@ body {
         <div class="layout-arcos">
             <div class="tarjeta-arco arco-ceremonia">
                 <img src="ceremonia.png" alt="Ceremonia" class="icon-img">
-                <h3 class="cursive-sub">Ceremonia Religiosa</h3>
+                <h3 class="cursive-sub">Ceremonia Religiosa y Recepción</h3>
                 <p class="lugar-tit">Hosteria Baguanchi</p>
                 <p class="direccion">Via Monay - Baguanchi- Paccha</p>
                  <p class="direccion"> Cuenca-Ecuador</p>
                 <p class="hora">17:00 hs</p>
                 <a href="https://maps.app.goo.gl/VrLDnxPPcHXuDQd4A" target="_blank" class="btn-outline">COMO LLEGAR</a>
             </div>
-            <div class="tarjeta-arco arco-fiesta">
-                <img src="fiesta.png" alt="Fiesta" class="icon-img" style="width: 60px; height: auto;">
-                <h3 class="cursive-sub">Recepción</h3>
-                <p class="lugar-tit">Hosteria Baguanchi</p>
-                <p class="direccion">Via Monay - Baguanchi- Paccha</p>
-                <p class="direccion"> Cuenca-Ecuador</p>
-                <p class="hora">Luego de la ceremonia religiosa</p>
-                <a href="https://maps.app.goo.gl/VrLDnxPPcHXuDQd4A" target="_blank" class="btn-outline">COMO LLEGAR</a>
-            </div>
+        
         </div>
     </div>
 <div class="seccion-itinerario">
